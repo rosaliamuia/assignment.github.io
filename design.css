@@ -3,33 +3,64 @@
 * {
   box-sizing: border-box;
   font-family: Helvetica;
-  margin-left: : 15px;
-  margin-bottom: 15px
+  margin:  0px;
+  padding: 0px;
+  font-weight: bold;
+  overflow: auto;
 }
-h1 {
-  font-size: 75%;
-  text-align: center;
-  text-decoration: bold;
+ body{
+  font-size:16px;
+ }
 
-}
+ header{
+  text-align:center;
+  font-size: 1.75em;
+  font-weight: 800;
+  margin-bottom: 40px;
+  margin-top: 40px;
+ }
 
 
 /********** desktop version **********/
 @media (min-width: 992px) {
 
-
  section.one{
-  width:33.33%;
-    float: left;
- }
- 
-section.two{
-  width:33.33%;
-    float: left;
- }
- section.three{
-  width:33.33%;
+
+  
     float: right;
+    background-color: grey;
+    border: 1px solid black;
+    width: 33.10% ;
+     margin-right: 5px;
+     margin: left: 10px;
+    
+ }
+
+
+
+ section.two{
+
+    margin-left: 0px;
+    float: right;
+    background-color: grey;
+    border: 1px solid black;
+    width: 33.05% ;
+    margin-right: 7px;
+   
+  
+ }
+
+  section.three{
+
+    margin-left: 0px;
+    float: left;
+    background-color: grey;
+    border: 1px solid black;
+    width: 32.33% ;
+    margin-right: 5px;
+  
+   
+
  }
  
 }
@@ -37,56 +68,79 @@ section.two{
 /********** tablet version **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-section.one{
-  width: 50%;
-    float: left;
- }
- 
 section.two{
-  width: 50%;
-    float: right;
+  margin-left: 0px;
  }
-
+.col-md-6{
+width: 50%;
+background-color: grey;
+float: left;
+margin: 0.75%;
   }
+
+col-md-12{
+  background-color: grey;
+  border: 1px solid black;
+  float: left;
+  width: 98.5%;
+  margin: 0.75%;
+}
+}
 
 /********** Mobile view **********/
 @media (max-width: 767px) {
-  section.three div{
-    width: 100%;
+  col-xs-12{
+   background-color: grey;
+   border: 1px solid black;
+   float: left;
+   width: 98.5%;
+   margin: 0.75%;
   }
 }
 
-h2 section.one {
-  position: relative;
-  bottom: 65px;
-  left: 65px;
+section{
+  padding: 15px;
+  height: 380px;
 }
 
- h2 section.two {
-  position: relative;
-  bottom: 65px;
-  right: 65px;
+#section-title1{
+position: relative;
+width: 30%;
+text-align: center;
+left: 70%;
+color: black;
+border: 1px solid black;
+background: red;
 }
 
-h2 section.three {
-  position: relative;
-  bottom: 65px;
-  right: 65px;
- 
+p{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding: 20px;
+clear: both;
+text-align: justify;
 }
 
-section.one {
-   background-color: red;
-   padding: 45px;
+#section-title2{
+position: relative;
+width: 30%;
+text-align: center;
+left: 70%;
+color: black;
+border: 1px solid black;
+background: yellow;
+width: max-content;
 }
 
-section.two {
-  background-color: grey;
-  padding: 50px;
-}
-
-section.three {
-  background-color: aqua;
-  padding: 85px;
- 
+#section-title3{
+position: relative;
+width: 30%;
+text-align: center;
+left: 70%;
+color: black;
+border: 1px solid black;
+background: aqua;
 }
