@@ -1,0 +1,92 @@
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin-left: : 15px;
+  margin-bottom: 15px
+}
+h1 {
+  font-size: 75%;
+  text-align: center;
+  text-decoration: bold;
+
+}
+
+
+/********** desktop version **********/
+@media (min-width: 992px) {
+
+
+ section.one{
+  width:33.33%;
+    float: left;
+ }
+ 
+section.two{
+  width:33.33%;
+    float: left;
+ }
+ section.three{
+  width:33.33%;
+    float: right;
+ }
+ 
+}
+
+/********** tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+section.one{
+  width: 50%;
+    float: left;
+ }
+ 
+section.two{
+  width: 50%;
+    float: right;
+ }
+
+  }
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+  section.three div{
+    width: 100%;
+  }
+}
+
+h2 section.one {
+  position: relative;
+  bottom: 65px;
+  left: 65px;
+}
+
+ h2 section.two {
+  position: relative;
+  bottom: 65px;
+  right: 65px;
+}
+
+h2 section.three {
+  position: relative;
+  bottom: 65px;
+  right: 65px;
+ 
+}
+
+section.one {
+   background-color: red;
+   padding: 45px;
+}
+
+section.two {
+  background-color: grey;
+  padding: 50px;
+}
+
+section.three {
+  background-color: aqua;
+  padding: 85px;
+ 
+}
