@@ -30,7 +30,7 @@
     float: left;
     background-color: grey;
     border: 1px solid black;
-    margin-right: 5px;
+  
  }
  
 section.two{
@@ -66,6 +66,12 @@ section.two{
      background-color: grey;
     border: 1px solid black;
  }
+ section.three{
+     background-color: grey;
+     width:100%;
+    border: 1px solid black;
+  
+ }
 
   }
 
@@ -93,6 +99,7 @@ section.two{
 section{
   padding: 15px;
   height: 380px;
+  margin: 1px;
 }
 
 #section-title1{
