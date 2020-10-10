@@ -24,43 +24,27 @@
 /********** desktop version **********/
 @media (min-width: 992px) {
 
+
  section.one{
-
-  
-    float: right;
-    background-color: grey;
-    border: 1px solid black;
-    width: 33.10% ;
-     margin-right: 5px;
-     margin: left: 10px;
-    
- }
-
-
-
- section.two{
-
-    margin-left: 0px;
-    float: right;
-    background-color: grey;
-    border: 1px solid black;
-    width: 33.05% ;
-    margin-right: 7px;
-   
-  
- }
-
-  section.three{
-
-    margin-left: 0px;
+  width:33.05%;
     float: left;
     background-color: grey;
     border: 1px solid black;
-    width: 32.33% ;
     margin-right: 5px;
-  
+ }
+ 
+section.two{
+  width:33.05%;
+    float: left;
+     background-color: grey;
+    border: 1px solid black;
    
-
+ }
+ section.three{
+  width:33%;
+    float: right;
+     background-color: grey;
+    border: 1px solid black;
  }
  
 }
@@ -68,33 +52,41 @@
 /********** tablet version **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-section.two{
-  margin-left: 0px;
+section.one{
+  width: 48%;
+    float: left;
+     background-color: grey;
+    border: 1px solid black;
+    margin-right: 2px;
  }
-.col-md-6{
-width: 50%;
-background-color: grey;
-float: left;
-margin: 0.75%;
-  }
+ 
+section.two{
+  width: 48%;
+    float: right;
+     background-color: grey;
+    border: 1px solid black;
+ }
 
-col-md-12{
-  background-color: grey;
-  border: 1px solid black;
-  float: left;
-  width: 98.5%;
-  margin: 0.75%;
-}
-}
+  }
 
 /********** Mobile view **********/
 @media (max-width: 767px) {
-  col-xs-12{
-   background-color: grey;
-   border: 1px solid black;
-   float: left;
-   width: 98.5%;
-   margin: 0.75%;
+
+  section.one div{
+    width: 100%;
+     background-color: grey;
+    border: 1px solid black;
+  }
+
+  section.two div{
+    width: 100%;
+     background-color: grey;
+    border: 1px solid black;
+  }
+  section.three div{
+    width: 100%;
+     background-color: grey;
+    border: 1px solid black;
   }
 }
 
